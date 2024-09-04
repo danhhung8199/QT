@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-9dc1ce826723aa44e703.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MockQt",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-d34e59afa057c8e4f4af.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-d062fee6e419cd004011.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-e563856f921999af9df8.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-2a0b5191b74d7606877f.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMockQt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMockQt-Debug-41ec9606bdd78faf9b85.json",
+					"name" : "appMockQt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMockQt_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMockQt_autogen-Debug-8d19f87dd80f91c6efa4.json",
+					"name" : "appMockQt_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMockQt_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMockQt_autogen_timestamp_deps-Debug-63a9550dd2e2d67ec22e.json",
+					"name" : "appMockQt_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMockQt_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMockQt_qmlimportscan-Debug-a59f1371f97fcc49413d.json",
+					"name" : "appMockQt_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMockQt_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMockQt_qmllint-Debug-d6757314d54959e09f8e.json",
+					"name" : "appMockQt_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMockQt_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMockQt_qmllint_json-Debug-9081e839d802822f61b2.json",
+					"name" : "appMockQt_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMockQt_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMockQt_qmllint_module-Debug-ca113e42fd91c3023eab.json",
+					"name" : "appMockQt_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMockQt_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMockQt_qmltyperegistration-Debug-f229b3192889235ba433.json",
+					"name" : "appMockQt_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMockQt_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMockQt_tooling-Debug-00e53af45c8e41d5db6f.json",
+					"name" : "appMockQt_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/build/Desktop_Qt_6_7_2-Debug",
+		"source" : "/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

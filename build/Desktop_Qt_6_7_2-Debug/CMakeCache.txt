@@ -389,6 +389,12 @@ Qt6Quick_DIR:PATH=/home/hung/Qt/6.7.2/gcc_64/lib/cmake/Qt6Quick
 //The directory containing a CMake configuration file for Qt6.
 Qt6_DIR:PATH=/home/hung/Qt/6.7.2/gcc_64/lib/cmake/Qt6
 
+//Path to a file.
+TAGLIB_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a library.
+TAGLIB_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libtag.so
+
 //The directory containing a CMake configuration file for TagLIB.
 TagLIB_DIR:PATH=TagLIB_DIR-NOTFOUND
 

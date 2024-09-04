@@ -18,21 +18,21 @@ void MusicPlayer::play(const QString &url)
         return;
     }
 
-    // // Đọc metadata từ file MP3 sử dụng TagLib
-    // TagLib::FileRef file(url.toStdString().c_str());
-    // if (!file.isNull() && file.tag()) {
-    //     m_artistName = QString::fromStdString(file.tag()->artist().to8Bit());
-    //     if (m_artistName.isEmpty()) {
-    //         m_artistName = "Unknown Artist";
-    //     }
-    //     m_songName = QString::fromStdString(file.tag()->title().to8Bit());
-    //     if (m_songName.isEmpty()) {
-    //         m_songName = fileInfo.baseName(); // fallback to file name if title is not available
-    //     }
-    // } else {
-    //     m_artistName = "Unknown Artist";
-    //     m_songName = fileInfo.baseName();
-    // }
+    //  metadata TagLib
+    TagLib::FileRef file(url.toStdString().c_str());
+    if (!file.isNull() && file.tag()) {
+        m_artistName = QString::fromUtf8(file.tag()->artist().toCString(true));
+        if (m_artistName.isEmpty()) {
+            m_artistName = "Unknown Artist";
+        }
+        m_songName = QString::fromUtf8(file.tag()->title().toCString(true));
+        if (m_songName.isEmpty()) {
+            m_songName = fileInfo.baseName();
+        }
+    } else {
+        m_artistName = "Unknown Artist";
+        m_songName = fileInfo.baseName();
+    }
 
     qDebug() << "Playing file:" << url;
     m_player->setSource(QUrl::fromLocalFile(url));

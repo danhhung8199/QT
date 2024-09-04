@@ -7,6 +7,14 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(Qt6 6.2 REQUIRED COMPONENTS Quick Multimedia)
 
+# Cài đặt thư viện TagLib và các tệp header
+find_path(TAGLIB_INCLUDE_DIR taglib/tag.h PATHS /usr/include)
+find_library(TAGLIB_LIBRARY NAMES tag taglib PATHS /usr/lib/x86_64-linux-gnu /usr/local/lib)
+
+if(NOT TAGLIB_INCLUDE_DIR OR NOT TAGLIB_LIBRARY)
+    message(FATAL_ERROR "Could not find TagLib")
+endif()
+
 qt_add_executable(appMockQt
     main.cpp
 )
@@ -60,8 +68,10 @@ set_target_properties(appMockQt PROPERTIES
 )
 
 target_link_libraries(appMockQt
-    PRIVATE Qt6::Quick Qt6::Multimedia
+    PRIVATE Qt6::Quick Qt6::Multimedia ${TAGLIB_LIBRARY}
 )
+
+target_include_directories(appMockQt PRIVATE ${TAGLIB_INCLUDE_DIR})
 
 include(GNUInstallDirs)
 install(TARGETS appMockQt

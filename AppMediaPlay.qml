@@ -149,6 +149,8 @@ Rectangle {
                     if(musicPlayer.getStatus()===0){
                         playPauseIcon.source = "qrc:/MockQt/assets/icon/pause_icon.png"
                         musicPlayer.play("/home/hung/Desktop/Data/C++/Data/mock21jul/code/Vo-Nguoi-Ta-Phan-Manh-Quynh.mp3")
+                        songTitle.text=musicPlayer.getName();
+                        songArtist.text=musicPlayer.getArtist();
                     }
                     else if(musicPlayer.getStatus()===1){
                         playPauseIcon.source = "qrc:/MockQt/assets/icon/resume_icon.png"

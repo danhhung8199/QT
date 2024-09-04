@@ -6,8 +6,8 @@
 #include <QAudioOutput>
 #include <QFileInfo>
 #include <QDebug>
-// #include <taglib/fileref.h>
-// #include <taglib/tag.h>
+#include <taglib/fileref.h>
+#include <taglib/tag.h>
 
 class MusicPlayer : public QObject
 {
