@@ -1,0 +1,36 @@
+<RCC>
+  <qresource prefix="/MockQt/">
+    <file alias="AppHomeScreen.qml">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/AppHomeScreen.qml</file>
+    <file alias="StatusBar.qml">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/StatusBar.qml</file>
+    <file alias="main.qml">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/main.qml</file>
+    <file alias="AppSettings.qml">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/AppSettings.qml</file>
+    <file alias="AppManager.qml">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/AppManager.qml</file>
+    <file alias="AppMediaPlay.qml">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/AppMediaPlay.qml</file>
+    <file alias="AppClimate.qml">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/AppClimate.qml</file>
+    <file alias="assets/icon/youtube.png">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/assets/icon/youtube.png</file>
+    <file alias="assets/icon/wifi.png">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/assets/icon/wifi.png</file>
+    <file alias="assets/icon/volume-mute.png">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/assets/icon/volume-mute.png</file>
+    <file alias="assets/icon/volume-down.png">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/assets/icon/volume-down.png</file>
+    <file alias="assets/icon/telephone.png">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/assets/icon/telephone.png</file>
+    <file alias="assets/icon/settings.png">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/assets/icon/settings.png</file>
+    <file alias="assets/icon/messeges.png">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/assets/icon/messeges.png</file>
+    <file alias="assets/icon/menu.png">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/assets/icon/menu.png</file>
+    <file alias="assets/icon/map.png">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/assets/icon/map.png</file>
+    <file alias="assets/icon/home.png">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/assets/icon/home.png</file>
+    <file alias="assets/icon/high-volume.png">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/assets/icon/high-volume.png</file>
+    <file alias="assets/icon/contact-book.png">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/assets/icon/contact-book.png</file>
+    <file alias="assets/icon/climate.png">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/assets/icon/climate.png</file>
+    <file alias="assets/icon/back.png">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/assets/icon/back.png</file>
+    <file alias="assets/icon/calendar.png">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/assets/icon/calendar.png</file>
+    <file alias="assets/icon/volume_icon.png">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/assets/icon/volume_icon.png</file>
+    <file alias="assets/icon/resume_icon.png">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/assets/icon/resume_icon.png</file>
+    <file alias="assets/icon/repeat_icon.png">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/assets/icon/repeat_icon.png</file>
+    <file alias="assets/icon/previous_icon.png">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/assets/icon/previous_icon.png</file>
+    <file alias="assets/icon/pause_icon.png">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/assets/icon/pause_icon.png</file>
+    <file alias="assets/icon/next_icon.png">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/assets/icon/next_icon.png</file>
+    <file alias="assets/background/homebackground.png">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/assets/background/homebackground.png</file>
+    <file alias="assets/background/backgroundmedia.jpg">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/assets/background/backgroundmedia.jpg</file>
+    <file alias="assets/background/climatebackgroung.jpg">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/assets/background/climatebackgroung.jpg</file>
+  </qresource>
+</RCC>
+

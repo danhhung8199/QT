@@ -1,0 +1,10 @@
+module MockQt
+typeinfo appMockQt.qmltypes
+prefer :/MockQt/
+AppHomeScreen 1.0 AppHomeScreen.qml
+StatusBar 1.0 StatusBar.qml
+AppSettings 1.0 AppSettings.qml
+AppManager 1.0 AppManager.qml
+AppMediaPlay 1.0 AppMediaPlay.qml
+AppClimate 1.0 AppClimate.qml
+

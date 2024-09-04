@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/MockQt">/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/build/Desktop_Qt_6_7_2-Debug/MockQt</file>
+
+  </qresource>
+</RCC>

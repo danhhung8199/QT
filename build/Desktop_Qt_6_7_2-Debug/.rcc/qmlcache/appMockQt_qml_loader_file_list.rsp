@@ -1,0 +1,11 @@
+--resource
+/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qmake_MockQt.qrc
+--resource
+/home/hung/Desktop/Data/QT/MOCK/git/MockQt/MockQt/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/appMockQt_raw_qml_0.qrc
+/MockQt/AppHomeScreen.qml
+/MockQt/StatusBar.qml
+/MockQt/main.qml
+/MockQt/AppSettings.qml
+/MockQt/AppManager.qml
+/MockQt/AppMediaPlay.qml
+/MockQt/AppClimate.qml

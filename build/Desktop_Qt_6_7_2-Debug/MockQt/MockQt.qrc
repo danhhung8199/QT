@@ -1,0 +1,40 @@
+<RCC>
+    <qresource prefix="/View">
+        <file>StatusBar.qml</file>
+        <file>AppSettings.qml</file>
+        <file>AppHomeScreen.qml</file>
+        <file>AppMediaPlay.qml</file>
+        <file>AppClimate.qml</file>
+    </qresource>
+    <qresource prefix="/Assets">
+        <file>assets/icon/youtube.png</file>
+        <file>assets/icon/wifi.png</file>
+        <file>assets/icon/volume-mute.png</file>
+        <file>assets/icon/volume-down.png</file>
+        <file>assets/icon/telephone.png</file>
+        <file>assets/icon/settings.png</file>
+        <file>assets/icon/messeges.png</file>
+        <file>assets/icon/menu.png</file>
+        <file>assets/icon/map.png</file>
+        <file>assets/icon/home.png</file>
+        <file>assets/icon/high-volume.png</file>
+        <file>assets/icon/contact-book.png</file>
+        <file>assets/icon/climate.png</file>
+        <file>assets/icon/calendar.png</file>
+        <file>assets/icon/back.png</file>
+        <file>assets/background/homebackground.png</file>
+        <file>assets/icon/volume_icon.png</file>
+        <file>assets/icon/resume_icon.png</file>
+        <file>assets/icon/repeat_icon.png</file>
+        <file>assets/icon/previous_icon.png</file>
+        <file>assets/icon/pause_icon.png</file>
+        <file>assets/icon/next_icon.png</file>
+        <file>assets/background/backgroundmedia.jpg</file>
+    </qresource>
+    <qresource prefix="/Controller">
+        <file>AppManager.qml</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>main.qml</file>
+    </qresource>
+</RCC>

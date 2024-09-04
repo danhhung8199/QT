@@ -1,0 +1,99 @@
+[
+    {
+        "classes": [
+            {
+                "className": "MusicPlayer",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "url",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "play",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "pause",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "stop",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "resume",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getStatus",
+                        "returnType": "QMediaPlayer::PlaybackState"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getCurrentTime",
+                        "returnType": "qint64"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getDuration",
+                        "returnType": "qint64"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getVolume",
+                        "returnType": "float"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "volume",
+                                "type": "float"
+                            }
+                        ],
+                        "name": "setVolume",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "time",
+                                "type": "qint64"
+                            }
+                        ],
+                        "name": "setCurrentTime",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getName",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getArtist",
+                        "returnType": "QString"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "MusicPlayer",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "MusicPlayer.h",
+        "outputRevision": 68
+    }
+]
